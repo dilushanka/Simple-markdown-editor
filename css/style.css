@@ -27,6 +27,12 @@ background-color:#ffffff;
 color:#000000;
 transform:translatex(0px) translatey(0px);
 }
+.editor-side .toolbar button{
+  border-top-left-radius:4px;
+  border-top-right-radius:4px;
+  border-bottom-left-radius:4px;
+  border-bottom-right-radius:4px;
+ }
 /* When screen width is 768px or less, stack sections vertically */
 @media (max-width: 768px) {
   .editor-container {
