@@ -171,3 +171,15 @@ button:hover {
   z-index: 10000;
 }
 .notification.show { opacity: 1; }
+
+.notification.show {
+  display: block;
+  animation: fadeInOut 2.5s;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  15% { opacity: 1; }
+  85% { opacity: 1; }
+  100% { opacity: 0; }
+}
